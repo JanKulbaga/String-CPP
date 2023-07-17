@@ -18,7 +18,7 @@ String str = "Hello World";
 
 ## Tests
 
-Run the `Test.cpp` in test folder
+Run the `Test.cpp` in test folder.
 
 ## License
 
