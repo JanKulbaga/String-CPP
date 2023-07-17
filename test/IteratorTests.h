@@ -9,13 +9,13 @@ void rendTest();
 void crbeginTest();
 void crendTest();
 
-void iteratorOperatorDereference();
-void iteratorOperatorEquals();
-void iteratorOperatorDoesntEquals();
+void iteratorOperatorDereferenceTest();
+void iteratorOperatorEqualsTest();
+void iteratorOperatorDoesntEqualsTest();
 
-void reverseIteratorOperatorDereference();
-void reverseIteratorOperatorEquals();
-void reverseiIteratorOperatorDoesntEquals();
+void reverseIteratorOperatorDereferenceTest();
+void reverseIteratorOperatorEqualsTest();
+void reverseiIteratorOperatorDoesntEqualsTest();
 
 
 inline void IteratorTests()
@@ -29,11 +29,11 @@ inline void IteratorTests()
 	crbeginTest();
 	crendTest();
 
-	iteratorOperatorDereference();
-	iteratorOperatorEquals();
-	iteratorOperatorDoesntEquals();
+	iteratorOperatorDereferenceTest();
+	iteratorOperatorEqualsTest();
+	iteratorOperatorDoesntEqualsTest();
 
-	reverseIteratorOperatorDereference();
-	reverseIteratorOperatorEquals();
-	reverseiIteratorOperatorDoesntEquals();
+	reverseIteratorOperatorDereferenceTest();
+	reverseIteratorOperatorEqualsTest();
+	reverseiIteratorOperatorDoesntEqualsTest();
 }

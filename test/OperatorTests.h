@@ -1,34 +1,34 @@
 #pragma once
 
-void stringOperatorAssignmentWithStringReference();
-void stringOperatorAssignmentWithConstCharPointer();
-void stringOperatorAssignmentWithCharacter();
-void stringOperatorEquals();
-void stringOperatorDoesntEquals();
-void stringOperatorLessThan();
-void stringOperatorGreaterThan();
-void stringOperatorLessThanOrEqualTo();
-void stringOperatorGreaterThanOrEqualTo();
-void stringOperatorPlus();
-void stringOperatorPlusEquals();
-void stringOperatorMultiply();
-void stringOperatorMultiplyEquals();
-void stringOperatorIndex();
+void stringOperatorAssignmentWithStringReferenceTest();
+void stringOperatorAssignmentWithConstCharPointerTest();
+void stringOperatorAssignmentWithCharacterTest();
+void stringOperatorEqualsTest();
+void stringOperatorDoesntEqualsTest();
+void stringOperatorLessThanTest();
+void stringOperatorGreaterThanTest();
+void stringOperatorLessThanOrEqualToTest();
+void stringOperatorGreaterThanOrEqualToTest();
+void stringOperatorPlusTest();
+void stringOperatorPlusEqualsTest();
+void stringOperatorMultiplyTest();
+void stringOperatorMultiplyEqualsTest();
+void stringOperatorIndexTest();
 
 inline void OperatorTests()
 {
-	stringOperatorAssignmentWithStringReference();
-	stringOperatorAssignmentWithConstCharPointer();
-	stringOperatorAssignmentWithCharacter();
-	stringOperatorEquals();
-	stringOperatorDoesntEquals();
-	stringOperatorLessThan();
-	stringOperatorGreaterThan();
-	stringOperatorLessThanOrEqualTo();
-	stringOperatorGreaterThanOrEqualTo();
-	stringOperatorPlus();
-	stringOperatorPlusEquals();
-	stringOperatorMultiply();
-	stringOperatorMultiplyEquals();
-	stringOperatorIndex();
+	stringOperatorAssignmentWithStringReferenceTest();
+	stringOperatorAssignmentWithConstCharPointerTest();
+	stringOperatorAssignmentWithCharacterTest();
+	stringOperatorEqualsTest();
+	stringOperatorDoesntEqualsTest();
+	stringOperatorLessThanTest();
+	stringOperatorGreaterThanTest();
+	stringOperatorLessThanOrEqualToTest();
+	stringOperatorGreaterThanOrEqualToTest();
+	stringOperatorPlusTest();
+	stringOperatorPlusEqualsTest();
+	stringOperatorMultiplyTest();
+	stringOperatorMultiplyEqualsTest();
+	stringOperatorIndexTest();
 }

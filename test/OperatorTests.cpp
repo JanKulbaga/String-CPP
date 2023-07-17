@@ -2,7 +2,7 @@
 #include "../src/String.h"
 #include <cassert>
 
-void stringOperatorAssignmentWithStringReference()
+void stringOperatorAssignmentWithStringReferenceTest()
 {
 	String s = "Hello";
 	String s1;
@@ -10,21 +10,21 @@ void stringOperatorAssignmentWithStringReference()
 	assert(s == s1 && s1 == "Hello");
 }
 
-void stringOperatorAssignmentWithConstCharPointer()
+void stringOperatorAssignmentWithConstCharPointerTest()
 {
 	String s;
 	s = "Hello";
 	assert(s == "Hello");
 }
 
-void stringOperatorAssignmentWithCharacter()
+void stringOperatorAssignmentWithCharacterTest()
 {
 	String s;
 	s = 'a';
 	assert(s == "a");
 }
 
-void stringOperatorEquals()
+void stringOperatorEqualsTest()
 {
 	String s = "Hello";
 	String s1 = "Hello";
@@ -33,28 +33,28 @@ void stringOperatorEquals()
 	assert(s == s2);
 }
 
-void stringOperatorDoesntEquals()
+void stringOperatorDoesntEqualsTest()
 {
 	String s = "Hello";
 	String s1 = "World";
 	assert(s != s1);
 }
 
-void stringOperatorLessThan()
+void stringOperatorLessThanTest()
 {
 	String s = "a";
 	String s1 = "b";
 	assert(s < s1);
 }
 
-void stringOperatorGreaterThan()
+void stringOperatorGreaterThanTest()
 {
 	String s = "b";
 	String s1 = "a";
 	assert(s > s1);
 }
 
-void stringOperatorLessThanOrEqualTo()
+void stringOperatorLessThanOrEqualToTest()
 {
 	String s = "a";
 	String s1 = "a";
@@ -63,7 +63,7 @@ void stringOperatorLessThanOrEqualTo()
 	assert(s <= s2);
 }
 
-void stringOperatorGreaterThanOrEqualTo()
+void stringOperatorGreaterThanOrEqualToTest()
 {
 	String s = "b";
 	String s1 = "b";
@@ -72,7 +72,7 @@ void stringOperatorGreaterThanOrEqualTo()
 	assert(s >= s2);
 }
 
-void stringOperatorPlus()
+void stringOperatorPlusTest()
 {
 	String s = "Hello";
 	String s1 = " World";
@@ -80,7 +80,7 @@ void stringOperatorPlus()
 	assert(s2 == "Hello World");
 }
 
-void stringOperatorPlusEquals()
+void stringOperatorPlusEqualsTest()
 {
 	String s = "Hello";
 	String s1 = " World";
@@ -88,21 +88,21 @@ void stringOperatorPlusEquals()
 	assert(s == "Hello World");
 }
 
-void stringOperatorMultiply()
+void stringOperatorMultiplyTest()
 {
 	String s = "Hello";
 	assert((s * 3) == "HelloHelloHello");
 	assert((3 * s) == "HelloHelloHello");
 }
 
-void stringOperatorMultiplyEquals()
+void stringOperatorMultiplyEqualsTest()
 {
 	String s = "Hello";
 	s *= 3;
 	assert(s == "HelloHelloHello");
 }
 
-void stringOperatorIndex()
+void stringOperatorIndexTest()
 {
 	String s = "Hello";
 	const String s1 = "Hello";

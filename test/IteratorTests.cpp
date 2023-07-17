@@ -50,13 +50,13 @@ void crendTest()
 	assert(*(s.crend()) == *(s.c_str() - 1));
 }
 
-void iteratorOperatorDereference()
+void iteratorOperatorDereferenceTest()
 {
 	String s = "Hello World";
 	assert(*(s.begin()) == 'H');
 }
 
-void iteratorOperatorEquals()
+void iteratorOperatorEqualsTest()
 {
 	String s = "Hello World";
 	String::Iterator it = s.begin();
@@ -64,7 +64,7 @@ void iteratorOperatorEquals()
 	assert(it == it1);
 }
 
-void iteratorOperatorDoesntEquals()
+void iteratorOperatorDoesntEqualsTest()
 {
 	String s = "Hello World";
 	String::Iterator it = s.begin();
@@ -72,13 +72,13 @@ void iteratorOperatorDoesntEquals()
 	assert(it != it1);
 }
 
-void reverseIteratorOperatorDereference()
+void reverseIteratorOperatorDereferenceTest()
 {
 	String s = "Hello World";
 	assert(*(s.rbegin()) == 'd');
 }
 
-void reverseIteratorOperatorEquals()
+void reverseIteratorOperatorEqualsTest()
 {
 	String s = "Hello World";
 	String::ReverseIterator it = s.rbegin();
@@ -86,7 +86,7 @@ void reverseIteratorOperatorEquals()
 	assert(it == it1);
 }
 
-void reverseiIteratorOperatorDoesntEquals()
+void reverseiIteratorOperatorDoesntEqualsTest()
 {
 	String s = "Hello World";
 	String::ReverseIterator it = s.rbegin();
