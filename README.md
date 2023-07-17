@@ -9,7 +9,7 @@ To work with the string class, you just need to insert `String.h` a `String.cpp`
 For example:
 
 ```C++
-#include "String.h"
+#include "src/String.h"
 
 String str = "Hello World";
 ```
