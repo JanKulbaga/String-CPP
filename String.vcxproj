@@ -131,11 +131,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
     <ClCompile Include="src\String.cpp" />
+    <ClCompile Include="test\OperatorTests.cpp" />
+    <ClCompile Include="test\StaticMethodTests.cpp" />
+    <ClCompile Include="test\IteratorTests.cpp" />
+    <ClCompile Include="test\MethodTests.cpp" />
+    <ClCompile Include="test\Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\String.h" />
+    <ClInclude Include="test\OperatorTests.h" />
+    <ClInclude Include="test\StaticMethodTests.h" />
+    <ClInclude Include="test\IteratorTests.h" />
+    <ClInclude Include="test\MethodTests.h" />
+    <ClInclude Include="test\Test.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
