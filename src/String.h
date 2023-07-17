@@ -16,6 +16,8 @@ public:
 	char& operator*() const { return *m_Ptr; }
 	bool operator==(const StringIterator& other) const { return m_Ptr == other.m_Ptr; }
 	bool operator!=(const StringIterator& other) const { return m_Ptr != other.m_Ptr; }
+
+	friend StringIterator operator+(const StringIterator s, size_t size) { return StringIterator(s.m_Ptr + size); }
 private:
 	char* m_Ptr{ nullptr };
 };
@@ -96,12 +98,12 @@ public:
 	ReverseIterator crend() const;
 
 	static String asciiLetters();
-	static String asciiLowercase();
-	static String asciiUppercase();
+	static String asciiLowerCase();
+	static String asciiUpperCase();
 	static String digits();
 	static String FromNumber(size_t num);
-	static String hexdigits();
-	static String octdigits();
+	static String hexDigits();
+	static String octDigits();
 	static String punctuation();
 
 	friend std::ostream& operator<<(std::ostream& os, const String& str);

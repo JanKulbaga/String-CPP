@@ -62,8 +62,6 @@ String& String::operator=(const char* const str)
 
 String& String::operator=(char c)
 {
-	if (c == m_Data[0])
-		return *this;
 	delete[] m_Data;
 	m_Length = 1;
 	m_Data = new char[m_Length + 1];
@@ -377,12 +375,12 @@ String String::asciiLetters()
 	return String("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
 }
 
-String String::asciiLowercase()
+String String::asciiLowerCase()
 {
 	return String("abcdefghijklmnopqrstuvwxyz");
 }
 
-String String::asciiUppercase()
+String String::asciiUpperCase()
 {
 	return String("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 }
@@ -413,12 +411,12 @@ String String::FromNumber(size_t num)
 	return String(data);
 }
 
-String String::hexdigits()
+String String::hexDigits()
 {
 	return String("0123456789abcdefABCDEF");
 }
 
-String String::octdigits()
+String String::octDigits()
 {
 	return String("01234567");
 }
