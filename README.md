@@ -16,6 +16,10 @@ For example:
 String str = "Hello World";
 ```
 
+## Tests
+
+Run the `Test.cpp` in test folder
+
 ## License
 
 This project is distributed under the MIT license.
