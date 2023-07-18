@@ -152,6 +152,13 @@ char& String::back() const
 	return m_Data[m_Length - 1];
 }
 
+char& String::charAt(size_t index) const
+{
+	if (index >= m_Length)
+		throw std::out_of_range("char& String::charAt(size_t index) const: index out of range");
+	return m_Data[index];
+}
+
 void String::clear()
 {
 	delete[] m_Data;

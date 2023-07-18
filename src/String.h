@@ -69,6 +69,7 @@ public:
 	char& operator[](size_t index) const;
 
 	char& back() const;
+	char& charAt(size_t index) const;
 	void clear();
 	const char* c_str() const;
 	bool endsWith(const char* const str) const;
