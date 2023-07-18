@@ -26,4 +26,4 @@ More in the [wiki](https://github.com/JanKulbaga/String-CPP/wiki) section.
 
 ## License
 
-This project is distributed under the MIT license.
+This project is distributed under the [MIT license](https://github.com/JanKulbaga/String-CPP/blob/master/LICENSE).
