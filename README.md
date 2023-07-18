@@ -6,7 +6,7 @@ Visual Studio solution with C++ 17
 
 ## Getting started
 
-To work with the string class, you just need to insert `String.h` a `String.cpp` into your project folder and include the `String.h` file in your .h or .cpp files.
+To work with the string class, you just need to insert `String.h` and `String.cpp` from `src` folder into your own project solution and include the `String.h` file in your .h or .cpp files.
 
 For example:
 
@@ -18,7 +18,7 @@ String str = "Hello World";
 
 ## Tests
 
-Run the `Test.cpp` in test folder
+Run the `Test.cpp` in test folder.
 
 ## License
 
