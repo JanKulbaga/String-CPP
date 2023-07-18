@@ -20,6 +20,10 @@ String str = "Hello World";
 
 Run the `Test.cpp` in test folder.
 
+## Documentation
+
+For more go to [wiki](https://github.com/JanKulbaga/String-CPP/wiki) section.
+
 ## License
 
 This project is distributed under the MIT license.
