@@ -22,7 +22,7 @@ Run the `Test.cpp` in test folder.
 
 ## Documentation
 
-For more go to [wiki](https://github.com/JanKulbaga/String-CPP/wiki) section.
+More in the [wiki](https://github.com/JanKulbaga/String-CPP/wiki) section.
 
 ## License
 
