@@ -1,6 +1,7 @@
 #pragma once
 
 void backTest();
+void charAtTest();
 void clearTest();
 void c_strTest();
 void endsWithTest();
@@ -23,6 +24,7 @@ void zfillTest();
 inline void MethodTests()
 {
 	backTest();
+	charAtTest();
 	clearTest();
 	c_strTest();
 	endsWithTest();

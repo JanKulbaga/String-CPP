@@ -10,6 +10,14 @@ void backTest()
 	assert(s.back() != 'l');
 }
 
+void charAtTest()
+{
+	String s = "Hello";
+	const String s1 = "Hello";
+	assert(s.charAt(0) == 'H');
+	assert(s1.charAt(1) == 'e');
+}
+
 void clearTest()
 {
 	String s = "Hello World";
