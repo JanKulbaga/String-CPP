@@ -2,7 +2,7 @@
 
 String class implementation with useful methods for working with strings. It also contains forward and reverse iterators.
 
-Visual Studio solution with C++ 17
+Visual Studio 2022 solution with C++ 17
 
 ## Getting started
 
